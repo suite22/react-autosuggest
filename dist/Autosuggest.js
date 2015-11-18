@@ -530,7 +530,7 @@ var Autosuggest = (function (_Component) {
       }
 
       this.setState({
-        value: suggestionValue,
+        value: '', // reset the input field after selecting a suggestion
         suggestions: null,
         focusedSectionIndex: null,
         focusedSuggestionIndex: null,
